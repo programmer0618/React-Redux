@@ -31,7 +31,7 @@ const Articlecard = ({ item, getArticles }) => {
           <rect width="100%" height="100%" fill="#55595c"></rect>
         </svg>
         <div className="card-body">
-          <p className="card-title fw-bold">{item.title}</p>
+          <p className="card-title fw-bold p-auto">{item.title}</p>
           <div className="card-text">{item.description}</div>
         </div>
         <div className="d-flex justify-content-between align-items-center card-footer mt-3">
